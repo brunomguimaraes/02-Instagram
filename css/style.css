@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body {
+    background-color: #FAFAFA;
+    font-family: Roboto;
+}
+.conteudo {
+    width: 935px;
+    margin: 88px calc((100vw - 935px) / 2) 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Configurações do menu TOPO */
+.topo {
+    width: 935px;
+    height: 54px;
+    margin: 0px auto;
+    padding: 0px calc((100vw - 935px) / 2);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #ffffff;
+
+    border-bottom: solid 1px #DBDBDB;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.topo ion-icon {
+    font-size: 22px;
+}
+.topo div:first-child {
+    display: flex;
+    align-items: center;
+}
+.topo div:first-child ion-icon {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: solid 1px #DBDBDB;
+}
+.pesquisa {
+    height: 28px;
+    width: 215px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    size: 12px;
+    color: #979797;
+}
+.menu {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Configurações dos stories */
+.stories {
+    height: 118px;
+    width: 614px;
+    padding-left: 9px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    
+    background-color: #ffffff;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+.story {
+    width: 68px;
+    margin: 16px 7px;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    text-align: center;
+    font-size: 12px;
+    color: #262626;
+}
+.borda {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 8px;
+}
+.avatar {
+    width: 58px;
+    height: 58px;
+    border-radius: 58px;
+    position: absolute;
+    margin: 5px;
+}
+.stories ion-icon {
+    position: absolute;
+    right: 0px;
+    align-self: center;
+
+    text-shadow: -3px 3px 5px #6e6e6e;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.posts {
+    height: 800px;
+}
+.sidebar {
+    height: 400px;
+    width: 292px;
+}
+/* 
+construir a caixa de posts
+empilhar as caixas
+alinhar tudo
+construir a barra lateral
+profit
+*/
