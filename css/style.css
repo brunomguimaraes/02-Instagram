@@ -145,7 +145,6 @@ a {
 .post {
     border: 1px solid #dbdbdb;
     border-radius: 3px;
-    padding-bottom: 14px;
     margin-bottom: 60px;
     background-color: #ffffff;
 
@@ -274,4 +273,49 @@ a {
 .sidebar:last-child {
     font-size: 11px;
     font-weight: 400;
+}
+
+/* Configurações dos comentários (Bônus) */
+.comentarios {
+    padding: 0px 17px 8px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.comentario {
+    margin: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.like {
+    display: flex;
+    justify-items: center;
+}
+.ver-todos {
+    color: #8E8E8E;
+}
+.caixa-de-comentario {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-size: 16px;
+    align-items: center;
+}
+.caixa-de-comentario div a {
+    margin: auto 17px auto 0px;
+    display: flex;
+    font-size: 28px;
+}
+.caixa-de-comentario div {
+    display: flex;
+    justify-content: center;
+}
+.caixa-de-comentario div input {
+    border: 1px;
+}
+.publicar {
+    color: #B2DFFC;
+    transition-duration: 300ms;
+}
+.publicar:hover {
+    color: #0095F6;
+    transition-duration: 300ms;
 }
