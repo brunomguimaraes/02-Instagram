@@ -1,0 +1,16 @@
+@media (max-width: 935px) {
+    .sidebar {
+        display: none;
+    }
+    .conteudo {
+        width: 612px;
+    }
+    .topo {
+        width: calc(100% - 40px);
+        padding: 0px 20px;
+        /* 
+        Se eu apenas colocar o padding o final da barra fica escondido.
+        Por esse motivo eu tirei já 40px da largura, deixando os itens centralizados.
+        */
+    }
+}

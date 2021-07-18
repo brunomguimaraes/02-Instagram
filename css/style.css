@@ -2,10 +2,14 @@
 body {
     background-color: #FAFAFA;
     font-family: Roboto;
+    margin-top: 34px;
+
+    display: flex;
+    justify-content: center;
 }
 .conteudo {
     width: 935px;
-    margin: 88px calc((100vw - 935px) / 2) 34px;
+    margin-top: 34px;
     display: flex;
     justify-content: space-between;
 }
@@ -24,9 +28,10 @@ a {
 /* Configurações do menu topo */
 .topo {
     width: 935px;
+    max-width: 100%; /* Para a barra de rolagem não esconder ícones quando a janela tem quase 935px de largura */ 
     height: 54px;
-    margin: 0px auto;
-    padding: 0px calc((100vw - 935px) / 2);
+    margin: 0px;
+    padding: 0px calc((100% - 935px) / 2);
     z-index: 1;
 
     display: flex;
