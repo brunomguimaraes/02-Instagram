@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 body {
     background-color: #FAFAFA;
     font-family: Roboto;
@@ -14,6 +14,11 @@ body {
 }
 .bold {
     font-weight: 500;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Configurações do menu topo */
@@ -175,9 +180,71 @@ body {
 
 /* Configurações da sidebar */
 .sidebar {
-    height: 400px;
-    width: 292px;
+    width: 293px;
+    height: auto;
+    font-weight: 300;
+    color: #8E8E8E;
 }
-/* 
-construir a barra lateral
-*/
+.profile {
+    height: 102px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.profile div {
+    display: flex;
+    flex-direction: column;
+}
+.profile img {
+    width: 56px;
+    border-radius: 56px;
+    margin: 23px 17px 23px 0px;
+}
+.sugestoes-topo {
+    font-size: 12px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: space-between;
+}
+.sugestao {
+    width: 100%;
+    display: flex;
+    margin: 16px 0px;
+
+    font-size: 12px;
+}
+.sugestao img {
+    width: 32px;
+    border-radius: 32px;
+}
+.sugestao div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-weight: 400;
+
+    margin-left: 11px;
+}
+.sugestao div .bold {
+    font-size: 14px;
+}
+.seguir {
+    color: #139EF2;
+    font-weight: 500;
+    margin: auto 0 auto auto;
+}
+.sobre {
+    font-size: 11px;
+    font-weight: 400;
+    margin: 32px 0px 18px;
+}
+.sobre a {
+    display: inline-block;
+    margin: 2px 0px;
+}
+.sidebar:last-child {
+    font-size: 11px;
+    font-weight: 400;
+}
