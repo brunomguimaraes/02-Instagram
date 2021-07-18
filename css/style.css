@@ -90,10 +90,11 @@ a {
     border-radius: 3px;
     margin-bottom: 24px;
 }
-.story {
+.stories a {
     width: 68px;
     margin: 18px 7px;
-
+}
+.story {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -176,6 +177,9 @@ a {
 }
 .curtidas span {
     margin-right: 3px;
+}
+.bookmark:hover {
+    color: #8f8f8f;
 }
 
 /* Configurações da sidebar */
