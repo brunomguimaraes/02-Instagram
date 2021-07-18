@@ -16,7 +16,7 @@ body {
     font-weight: 500;
 }
 
-/* Configurações do menu TOPO */
+/* Configurações do menu topo */
 .topo {
     width: 935px;
     height: 54px;
@@ -169,15 +169,15 @@ body {
     display: flex;
     align-self: center;
 }
+.curtidas span {
+    margin-right: 3px;
+}
 
+/* Configurações da sidebar */
 .sidebar {
     height: 400px;
     width: 292px;
 }
 /* 
-construir a caixa de posts
-empilhar as caixas
-alinhar tudo
 construir a barra lateral
-profit
 */
