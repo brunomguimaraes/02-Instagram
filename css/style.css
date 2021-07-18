@@ -197,9 +197,12 @@ a {
 /* Configurações da sidebar */
 .sidebar {
     width: 293px;
-    height: auto;
+    height: 85vh;
     font-weight: 300;
     color: #8E8E8E;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 68px;
 }
 .profile {
     height: 102px;
